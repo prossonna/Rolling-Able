@@ -673,13 +673,12 @@ img.about-us-img {
 section#able_event {
     padding: 50px 0;
 }
-/* .vdo-sec {
-    padding-top: 40px; 
-    padding-left: 50px;
-} */
+.vdo-sec {
+  margin: 10px 0;
+}
 .bs-example {
     height: 290px;
-    width: 435px;
+    width: 100%;
     background-size: cover;
 }
 .modal-dialog iframe{
@@ -792,7 +791,7 @@ p.icon-desc {
 /* Gallery */
 .gallery-wrap {
     position: relative;
-    padding: 30px 0;
+    padding: 30px 0 50px;
 }
 .gallery-wrap:before {
     position: absolute;
