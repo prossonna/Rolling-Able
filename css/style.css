@@ -825,16 +825,26 @@ p.icon-desc {
 .gallery-item:nth-child(1) {
     grid-row: span 1;
     grid-column: span 4;
-	height: 250px;
+  	height: 250px;
 }
 .gallery-item:nth-child(2) {
     grid-row: span 2;
     grid-column: span 2;
-	height: 500px;
+	  height: 500px;
 }
 .gallery-item:nth-child(3), .gallery-item:nth-child(4) {
 	grid-column: span 2;
 	height: 240px;
+}
+.gallery-item:nth-child(7) {
+    grid-row: span 2;
+    grid-column: span 2;
+	  height: 350px;
+}
+.gallery-item:nth-child(8) .gallery-item:nth-child(9) {
+  grid-row: span 2;
+  grid-column: span 2;
+  height: 200px;
 }
 
 
