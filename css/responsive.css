@@ -40,6 +40,11 @@
         grid-column: span 2;
         height: 200px;
     }
+    .author-details {
+        display: flow-root;
+        text-align: center;
+    }
+
 }
 @media only screen and (min-width: 501px) and (max-width: 767px) {
     .rolling-banner-wrap {
@@ -78,6 +83,9 @@
         grid-row: span 1;
         grid-column: span 2;
         height: 240px;
+    }
+    .auhor-designation {
+        margin: 0 10px;
     }
     
 }
