@@ -828,7 +828,6 @@ p.icon-desc {
     object-fit: cover;
     border-radius: 5px;
 }
-
 .gallery-item:nth-child(1) {
     grid-row: span 1;
     grid-column: span 4;
@@ -857,6 +856,30 @@ p.icon-desc {
     grid-row: span 1;
     grid-column: span 2;
     height: 200px;
+}
+.gallery-item [class*=" imghvr-"], [class^="imghvr-"] {
+    width: 100%;
+    height: 100%;
+}
+.gallery-item [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+    padding: 10px 15px;
+}
+.fig-cap-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.fig-cap-desc {
+    font-size: 12px;
+}
+.btn-gallery-wrap {
+    margin: 20px 0;
+}
+.view-more-gallery {
+    border: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    outline: none;
+    font-weight: 600;
 }
 
 
